@@ -1,4 +1,17 @@
+//Os métodos indexOf() e lastIndexOf()
+
+var exemplo = "Java";
+//criando a variável e alimentando com o texto desejado.
+var posicaoInicio = exemplo.indexOf("a");
+//o resultado será o retorno da posição da primeira letra "a" na variável exemplo.
+var posicaoFinal = exemplo.lastIndexOf("a");
+//fará o retorno da posição da primeira letra "a" analisada de trás para frente.
+var posicaoBusca = exemplo.indexOf("a", 1);
+//retornará a posição da primeira letra "a" existente após a posição 1 na variável.
+
+/*
 //O método split()
+
 var exemplo = "Marlene Prado";
 //criando a variável e alimentando com o texto desejado.
 var resultado = exemplo.split("");
