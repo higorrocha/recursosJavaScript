@@ -1,10 +1,18 @@
+//A propridade length
+
+var exemplo = "JavaScript";
+//criando a variável e alimentando com o texto desejado.
+var tamanho = exemplo.length;
+//retornará para a variável o tamanho da string de exemplo. No caso 10.
+
+/*
 //O método replace()
 
 var exemplo = "Mavin Marven";
 //criando a variável e alimentando com o texto desejado.
 var resultado = exemplo.replace("Mavin", "Joana");
 /*criando uma nova string com base na variável exemplo e substituindo a
-palavra "Mavin" por "Joana".
+palavra "Mavin" por "Joana".*/
 
 /*
 //A função reduce()
