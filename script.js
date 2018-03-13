@@ -1,3 +1,12 @@
+//O método replace()
+
+var exemplo = "Mavin Marven";
+//criando a variável e alimentando com o texto desejado.
+var resultado = exemplo.replace("Mavin", "Joana");
+/*criando uma nova string com base na variável exemplo e substituindo a
+palavra "Mavin" por "Joana".
+
+/*
 //A função reduce()
 
 var numeros = [1, 2, 3, 4, 5, 6];
