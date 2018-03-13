@@ -1,3 +1,16 @@
+//A função reduce()
+
+var numeros = [1, 2, 3, 4, 5, 6];
+//criando array e populando.
+var total = numeros.reduce(function(total, numero){
+    return total + numero;
+}, 0);
+/*É feita a chamada da função para o array numeros e passada a função de
+callback que recebe o total e um objeto para representar os números de forma 
+individual - numero. A função executa os cálculos e retorna o resultado. Também
+é passado o valor inicial que é zero. */
+
+/*
 //A função concat()
 
 var arrayUm = ["a", "b", "c"];
@@ -6,6 +19,7 @@ var arrayDois = [1, 2, 3];
 //criando array e populando.
 var concatenado = arrayUm.concat(arrayDois);
 //a concatenação retonará o valor a,b,c,1,2,3 para a variável.
+*/
 
 /*
 //Os métodos indexOf() e lastIndexOf()
