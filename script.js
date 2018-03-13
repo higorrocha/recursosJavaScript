@@ -1,9 +1,13 @@
+//Recursos da linguagem JavaScript
+
+/*
 //A propridade length
 
 var exemplo = "JavaScript";
 //criando a variável e alimentando com o texto desejado.
 var tamanho = exemplo.length;
 //retornará para a variável o tamanho da string de exemplo. No caso 10.
+*/
 
 /*
 //O método replace()
