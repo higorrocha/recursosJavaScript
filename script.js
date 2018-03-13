@@ -1,3 +1,13 @@
+//A função concat()
+
+var arrayUm = ["a", "b", "c"];
+//criando array e populando.
+var arrayDois = [1, 2, 3];
+//criando array e populando.
+var concatenado = arrayUm.concat(arrayDois);
+//a concatenação retonará o valor a,b,c,1,2,3 para a variável.
+
+/*
 //Os métodos indexOf() e lastIndexOf()
 
 var exemplo = "Java";
@@ -8,6 +18,7 @@ var posicaoFinal = exemplo.lastIndexOf("a");
 //fará o retorno da posição da primeira letra "a" analisada de trás para frente.
 var posicaoBusca = exemplo.indexOf("a", 1);
 //retornará a posição da primeira letra "a" existente após a posição 1 na variável.
+*/
 
 /*
 //O método split()
