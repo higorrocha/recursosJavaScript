@@ -1,3 +1,17 @@
+//O método split()
+var exemplo = "Marlene Prado";
+//criando a variável e alimentando com o texto desejado.
+var resultado = exemplo.split("");
+//fará a divisão da string em caracteres isolados e armazenará em um array.
+var resultado2 = exemplo.split(" ");
+//fará a divisão da string usando como configuração o espaço em branco.
+var resultado3 = exemplo.split(" ", 1);
+/*O método recebe dois argumentos - o segundo sendo opcional. 
+No primeiro argumento é passado a configuração para fazer a divisaão da string,
+em segundo se faz a definição da quantidade de substrings que podem ser
+retornadas no array. O que retornaria o array com a palavra "Marlene". */
+
+/*
 //O método substring()
 
 var exemplo = "JavaScript é show!";
